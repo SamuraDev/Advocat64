@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адвокат Консультация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Консультация адвоката</h1>
+            <p>Профессиональная помощь в решении ваших юридических вопросов</p>
+            <p>г. Саратов</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="consult-form">
+            <h2>Свяжитесь с нами</h2>
+            <form id="consultForm">
+                <label for="name">Ваше Имя</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+                <label for="phone">Ваш Телефон</label>
+                <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required>
+
+                <label for="description">Описание проблемы</label>
+                <textarea id="description" name="description" rows="4" placeholder="Краткое описание вашей проблемы" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+        
+        <!-- Кнопка перехода на Telegram -->
+        <a href="https://t.me/MelonYaY" target="_blank" class="telegram-button">Связаться через Telegram</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Какая-то Адвокатская фирма. Все права защищены. А может и нет :( но мы защитим!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
